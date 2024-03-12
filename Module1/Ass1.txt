@@ -1,0 +1,31 @@
+Module – 1 (SDLC)
+
+1 What is Software?
+2 What are the types of Applications?
+3 What is programing?
+4 What is Python?
+
+
+1 What is Software?
+-  Software refers to a set of instructions or programs that tell a computer how to perform specific tasks.
+   It is a broad term that encompasses everything from operating systems (like Windows or macOS) to applications
+  (like word processors, web browsers, and games).
+
+2 What are the types of Applications?
+- Web Application
+  System Application
+  Desktop Application
+
+3 What is programing?
+- Programming refers to the process of creating a set of instructions that tell a computer how to perform a task. 
+  These instructions, often written in a programming language, form a program. Programming involves designing and implementing algorithms, 
+  which are step-by-step procedures or formulas for solving problems.
+
+4 What is Python?
+- Python is a high-level, 
+  interpreted programming language 
+  known for simplicity and readability.
+  It supports multiple programming paradigms, 
+  including procedural, 
+  object-oriented, 
+  and functional programming.
