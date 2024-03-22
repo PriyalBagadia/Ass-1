@@ -28,4 +28,4 @@ Module – 1 (SDLC)
   It supports multiple programming paradigms, 
   including procedural, 
   object-oriented, 
-  and functional programming.
+  and functional programming.     
