@@ -1,0 +1,4 @@
+What is File function in python? What is keywords to create and write file.
+
+-> In Python, file handling involves using built-in functions and methods to create, open, read, write, and close files.
+The primary functions and methods for working with files in Python are part of the open() function and the file object methods.

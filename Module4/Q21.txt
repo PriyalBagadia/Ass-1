@@ -1,0 +1,21 @@
+What are oops concepts? Is multiple inheritance supported in java
+
+-> Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects", 
+which can contain data (attributes or properties) and code (methods or functions). 
+OOP focuses on organizing software as a collection of objects that interact with each other to perform tasks. 
+Some of the key concepts in OOP are:
+
+Classes and Objects: Classes are blueprints for creating objects. They define the properties and behaviors that objects of the class will have. 
+Objects are instances of classes.
+
+Encapsulation: Encapsulation is the bundling of data and methods that operate on the data into a single unit (class). 
+It hides the internal state of an object from the outside world and only exposes the necessary methods to interact with the object.
+
+Inheritance: Inheritance is a mechanism where a new class (subclass or derived class) is created from an existing class (superclass or base class). 
+The subclass inherits the properties and behaviors (attributes and methods) of the superclass and can also have its own additional properties and behaviors.
+
+Polymorphism: Polymorphism allows objects of different classes to be treated as objects of a common superclass. 
+It enables a single interface to represent different types or forms.
+
+Abstraction: Abstraction is the process of simplifying complex systems by hiding unnecessary details while highlighting essential features. 
+In OOP, abstraction is achieved through classes and interfaces, which provide a simplified view of the underlying implementation.

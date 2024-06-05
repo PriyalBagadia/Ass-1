@@ -1,0 +1,5 @@
+When is the finally block executed?
+
+-> The finally block in a Python try-except-finally structure is executed regardless of whether an exception occurs or not. 
+It ensures that certain cleanup tasks or actions are performed, such as closing files, releasing resources, or logging information, 
+before the program exits the try block, whether an exception is raised or not.

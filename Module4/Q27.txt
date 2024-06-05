@@ -1,0 +1,7 @@
+What is Instantiation in terms of OOP terminology?
+
+-> In object-oriented programming (OOP) terminology, instantiation refers to the process of creating an instance of a class. 
+An instance is a specific object created from a class blueprint, with its own unique attributes and methods.
+
+When you instantiate a class, you're essentially creating a copy of that class with its own distinct set of attributes and behaviors. 
+Each instance of a class has its own state (values of attributes) and behavior (methods).

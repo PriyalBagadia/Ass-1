@@ -1,0 +1,22 @@
+What relationship is appropriate for Course and Faculty?
+
+-> The relationship between a "Course" and "Faculty" can vary depending on the context and requirements of the system being modeled. 
+Here are a few possible relationships that could be appropriate:
+
+One-to-Many (1
+) Relationship:
+
+In this relationship, a course can have multiple faculties, but each faculty can be associated with only one course at a time.
+Example: A course "Computer Science 101" may have multiple faculty members teaching different sections or lectures of the course.
+Many-to-Many (M
+) Relationship with Junction Table:
+
+In this relationship, multiple courses can be taught by multiple faculties, and a faculty member can teach multiple courses.
+This relationship is typically implemented using a junction table (or associative entity) to represent the many-to-many relationship.
+Example: A faculty member can teach "Mathematics 101" and "Physics 201", while multiple faculty members may teach "Computer Science 101".
+One-to-One (1:1) Relationship:
+
+In rare cases, a one-to-one relationship between a course and faculty may exist, where each course is associated with only one faculty member, 
+and each faculty member teaches only one course.
+Example: A specialized or advanced course with a dedicated instructor, or a mentorship program where each faculty mentors one student 
+in a specific course.

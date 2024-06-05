@@ -1,0 +1,5 @@
+When will the else part of try-except-else be executed?
+
+-> In a try-except-else block in Python, the else part is executed if and only if no exception occurs in the try block.
+It provides a way to distinguish between the code that should be executed if an exception occurs (handled by except block(s))
+and the code that should only run if no exceptions occur.
