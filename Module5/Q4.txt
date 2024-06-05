@@ -1,0 +1,17 @@
+What is Django URLs?make program to create django urls
+
+-> In Django, URLs (Uniform Resource Locators) are used to map specific web addresses to corresponding views. 
+This allows users to access different parts of a web application by visiting specific URLs. 
+Django's URL configuration is defined using URL patterns, which are typically stored in a file named urls.py.
+
+Creating Django URLs
+
+Set Up the Project and App:
+    Create a Django project if you haven't already.
+    Create a Django app within the project.
+
+Define Views:
+    Create views in the app that will handle requests to specific URLs.
+
+Create URL Patterns:
+    Define URL patterns in the urls.py files of both the project and the app to map URLs to views.

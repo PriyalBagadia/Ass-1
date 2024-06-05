@@ -1,0 +1,4 @@
+Mention what command line can be used to load data into Django?
+
+-> To load data into a Django project, you can use the loaddata command provided by Django's management commands. 
+This command is used to load data from fixture files (which are typically JSON, XML, or YAML formatted) into your database.

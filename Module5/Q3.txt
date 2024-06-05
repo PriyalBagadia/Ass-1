@@ -1,0 +1,6 @@
+Explain what does django-admin.py make messages command is used for?
+
+-> The django-admin.py makemessages command in Django is used to create message files for translation, 
+which are essential for internationalization (i18n) of a Django project. 
+This command scans your code for translation strings (marked with special translation functions) 
+and generates message files that can be translated into different languages.

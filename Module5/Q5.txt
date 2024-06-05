@@ -1,0 +1,61 @@
+What is a QuerySet?Write program to create a new Post object in database:
+
+-> What is a QuerySet?
+In Django, a QuerySet is a collection of database queries to retrieve, filter, and manipulate data from the database. 
+It represents a lazy database lookup for a set of objects. QuerySets allow you to read the data from the database, filter it, 
+and apply various operations to it.
+
+Creating a New Post Object in the Database
+
+Step 1: Define the Post Model
+# myapp/models.py
+from django.db import models
+
+class Post(models.Model):
+    title = models.CharField(max_length=200)
+    content = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.title
+
+Step 2: Create and Apply Migrations
+python manage.py makemigrations
+python manage.py migrate
+
+Step 3: Create a New Post Object
+python manage.py shell
+
+from myapp.models import Post
+
+new_post = Post(title="My First Post", content="This is the content of my first post.")
+new_post.save()
+
+# myapp/views.py
+from django.http import HttpResponse
+from myapp.models import Post
+
+def create_post(request):
+    new_post = Post.objects.create(
+        title="My First Post",
+        content="This is the content of my first post."
+    )
+    return HttpResponse(f"Post created with ID: {new_post.id}")
+
+# myapp/urls.py
+from django.urls import path
+from .views import create_post
+
+urlpatterns = [
+    path('create-post/', create_post, name='create_post'),
+]
+
+# myproject/urls.py
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('myapp.urls')),
+]
+
